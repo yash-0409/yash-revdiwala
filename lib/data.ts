@@ -45,7 +45,7 @@ export const experiencesData = [
     title: "Back-End Developer",
     location: "Adajan, Surat",
     description:
-      "I worked as a back-end developer for 5 months. I also upskilled to the front-end development with React, Next.js and Tailwind.",
+      "I worked as a back-end developer for 5 months. My stack included HTML5, CSS3, PHP, MySQL, SQLite and cPanel. I also upskilled to the front-end development with React, Next.js and Tailwind.",
     icon: React.createElement(CgWorkAlt),
     date: "May 2023 - Sep 2023",
   },
@@ -53,7 +53,7 @@ export const experiencesData = [
     title: "Front-End Developer",
     location: "Udhna Darwaja, Surat",
     description:
-      "I worked as a front-end developer for 7 months. I also upskilled to the full stack. My stack includes React, Next.js, Tailwind, Mongoose and MongoDB. Currently I'm open to full-time opportunities.",
+      "I worked as a front-end developer for 7 months. I also upskilled to the full stack. My stack included React, Next.js, Tailwind and MongoDB. Currently I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
     date: "Dec 2023 - Jun 2024",
   },

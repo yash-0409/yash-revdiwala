@@ -31,8 +31,8 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/images/dp.jpg"
-              alt="Ricardo portrait"
+              src="/images/dp.JPG"
+              alt="Yash Revdiwala"
               width="192"
               height="192"
               quality="95"
@@ -62,11 +62,8 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Yash.</span> I'm a{" "}
-        <span className="font-bold">
-          frontend developer.
-          <br />{" "}
-        </span>
+        <span className="font-bold">Hello, I'm Yash Revdiwala.</span> I'm a{" "}
+        <span className="font-bold">frontend developer.</span>
         <span className=""> I enjoy</span> building{" "}
         <span className="italic">sites & apps</span>. My focus is{" "}
         <span className="underline">React (Next.js)</span>.
