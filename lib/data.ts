@@ -1,10 +1,10 @@
-import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import React from "react"
+import { CgWorkAlt } from "react-icons/cg"
+import { FaReact } from "react-icons/fa"
+import { LuGraduationCap } from "react-icons/lu"
+import corpcommentImg from "@/public/corpcomment.png"
+import rmtdevImg from "@/public/rmtdev.png"
+import wordanalyticsImg from "@/public/wordanalytics.png"
 
 export const links = [
   {
@@ -31,34 +31,33 @@ export const links = [
     name: "Contact",
     hash: "#contact",
   },
-] as const;
+] as const
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+    title: "Graduated High School",
+    location: "New Magdalla, Surat",
+    description: "I graduated from High School after 2 years of studying.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "May 2021",
+  },
+  {
+    title: "Back-End Developer",
+    location: "Adajan, Surat",
+    description:
+      "I worked as a back-end developer for 5 months. I also upskilled to the front-end development with React, Next.js and Tailwind.",
+    icon: React.createElement(CgWorkAlt),
+    date: "May 2023 - Sep 2023",
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
+    location: "Udhna Darwaja, Surat",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I worked as a front-end developer for 7 months. I also upskilled to the full stack. My stack includes React, Next.js, Tailwind, Mongoose and MongoDB. Currently I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "Dec 2023 - Jun 2024",
   },
-] as const;
+] as const
 
 export const projectsData = [
   {
@@ -82,26 +81,29 @@ export const projectsData = [
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: wordanalyticsImg,
   },
-] as const;
+] as const
 
 export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
-  "TypeScript",
+  "PHP",
   "React",
+  "VITE",
   "Next.js",
   "Node.js",
+  "Express.js",
+  "npm",
+  "yarn",
+  "bun",
   "Git",
+  "GitHub",
+  "Bootstrap",
   "Tailwind",
-  "Prisma",
+  "MySQL",
+  "SQLite",
   "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
-] as const;
+  "Docker",
+] as const
