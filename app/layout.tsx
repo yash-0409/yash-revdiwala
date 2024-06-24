@@ -1,23 +1,23 @@
-import Header from "@/components/header";
-import "./globals.css";
-import { Inter } from "next/font/google";
-import ActiveSectionContextProvider from "@/context/active-section-context";
-import Footer from "@/components/footer";
-import ThemeSwitch from "@/components/theme-switch";
-import ThemeContextProvider from "@/context/theme-context";
-import { Toaster } from "react-hot-toast";
+import Header from "@/components/header"
+import "./globals.css"
+import { Inter } from "next/font/google"
+import ActiveSectionContextProvider from "@/context/active-section-context"
+import Footer from "@/components/footer"
+import ThemeSwitch from "@/components/theme-switch"
+import ThemeContextProvider from "@/context/theme-context"
+import { Toaster } from "react-hot-toast"
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "Ricardo | Personal Portfolio",
-  description: "Ricardo is a full-stack developer with 8 years of experience.",
-};
+  title: "Yash | Personal Portfolio",
+  description: "Yash Revdiwala is a full-stack developer.",
+}
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
   return (
     <html lang="en" className="!scroll-smooth">
@@ -39,5 +39,5 @@ export default function RootLayout({
         </ThemeContextProvider>
       </body>
     </html>
-  );
+  )
 }
