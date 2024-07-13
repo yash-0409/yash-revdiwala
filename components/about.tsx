@@ -19,10 +19,11 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I'm a skilled software developer with knowledge in HTML5, CSS, PHP,
-        JavaScript, MYSQL, React.js, Next.js, Node.js and MongoDB. I'm a quick
-        learner and will collaborate closely with clients to create efficient,
-        scalable, and user-friendly solutions that solve real-world problems.
+        I'm a skilled software developer with experience in MongoDB, MySQL,
+        SQLite and JavaScript, and expertise in frameworks like React, Node.js,
+        and Next.js. I'm a quick learner and collaborate closely with clients to
+        create efficient, scalable, and user-friendly solutions that solve
+        real-world problems.
       </p>
 
       <p>
