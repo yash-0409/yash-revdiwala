@@ -9,7 +9,7 @@ To visit the website, [click here.](https://yash-revdiwala.vercel.app/)
 ### Cloning the repository
 
 ```shell
-git https://github.com/YashRevdiwala/portfolio.git
+git clone https://github.com/YashRevdiwala/portfolio.git
 ```
 
 ### Install packages
